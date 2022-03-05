@@ -1,0 +1,216 @@
+body
+{
+    background: #201b2c;
+    color: white;
+    font-family: poppinsregular;
+    margin: 0 auto;
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+.market
+{
+    color: rgb(132, 13, 201);
+}
+
+.main-login
+{
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login
+{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.left-login h1
+{
+    font-family: poppinsregular;
+    color: rgb(132, 13, 201);
+    line-height: 35px;
+}
+
+.left-login span
+{
+    color: white;
+}
+
+.right-login
+{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-login
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login h1
+{
+    color: rgb(132, 13, 201);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    font-family: poppinsmedium;
+}
+
+.textfield input
+{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label
+{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder
+{
+    color: #f0ffffde;
+}
+
+.btn-login
+{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: rgb(132, 13, 201);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(132, 13, 201, 0.384);;
+}
+
+.login-text
+{
+    font-family: poppinsbold;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title
+{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.title h1
+{
+    font-weight: 200;
+}
+
+li
+{
+    display: inline-block;
+    margin: 20px;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: rgb(132, 13, 201);
+    transition: 0.3s all;
+}
+
+.botaobonito
+{
+    border: 2px solid rgb(132, 13, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.botaobonito:hover
+{
+    background-color: rgb(132, 13, 201);
+    color: white;
+}
+
+img
+{
+   width: 30vw;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 20px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mark
+{
+    color: rgb(132, 13, 201);
+    font-weight: 200;
+}
